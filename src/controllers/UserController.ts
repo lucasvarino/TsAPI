@@ -1,5 +1,5 @@
 import { Request, Response} from 'express';
-import UserModel from '../database/models/UserModel';
+import UserModel from '../models/UserModel';
 import bcrypt from 'bcryptjs';
 
 class UserController {

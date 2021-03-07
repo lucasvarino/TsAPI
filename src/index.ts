@@ -1,7 +1,7 @@
 import express from 'express';
 import routes from './routes';
 import './database/connection';
-import './database/models/UserModel';
+import './models/UserModel';
 
 
 const app = express();
