@@ -4,6 +4,10 @@ import bcrypt from 'bcryptjs';
 
 class UserController {
 
+    public index (req: Request, res: Response){
+        res.json({userID: req.userId});
+    }
+
      public async create(req: Request, res: Response) {
         const { email, password } = req.body;
         const userExists = await UserModel.findOne({where: {email: email}});
