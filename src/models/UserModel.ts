@@ -1,4 +1,4 @@
-import { DataType, DataTypes, Model, Sequelize } from 'sequelize';
+import { DataTypes, Model } from 'sequelize';
 import sequelize from '../database/connection';
 
 interface UserAttributes {
